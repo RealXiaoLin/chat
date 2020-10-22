@@ -158,3 +158,8 @@
 .hidden {
   display: none;
 }
+
+// エラーメッセージ生成時のレイアウトズレを防ぐ
+.field_with_errors {
+  display: contents;
+}
