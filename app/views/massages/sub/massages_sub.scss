@@ -1,0 +1,310 @@
+// Place all the styles related to the massages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.wrapper {
+  display: flex;
+}
+
+.side-bar {
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+.side-bar-header {
+  height: 100px;
+  padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-name a {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create-room {
+  font-size: 10px;
+}
+
+.create-room a {
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.rooms {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.room {
+  padding: 20px 0 40px;
+}
+
+.room-name a {
+  text-decoration: none;
+  color: white;
+}
+
+.chat {
+  background-color: #ffffff;
+  width: calc(100% - 300px);
+}
+
+.chat-header {
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  color: #333;
+  font-size: 24px;
+  margin-top: 36px;
+}
+
+.header-button {
+  margin-top: 40px;
+}
+
+.header-button a {
+  text-decoration: none;
+  border: 1px solid darkred;
+  color: darkred;
+  padding: 20px;
+}
+
+.messages {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.message {
+  margin: 10px 0 0 0;
+}
+
+.upper-message {
+  display: flex;
+}
+
+.message-user {
+  color: #434a54;
+  font-size: 16px;
+}
+
+.message-date {
+  color: #999;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.lower-message {
+  margin-top: 10px;
+}
+
+.message-content {
+  color: #434a54;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.form {
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+}
+
+.form-input {
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+.form-message {
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .wrapper {
+//   display: flex;
+//   height: 100vh;
+// }
+
+// .side-bar {
+//   width: 300px;
+//   // background-color: #253141;
+// }
+
+// .side-bar-top {
+//   background-color: #253141;
+//   height: 100px;
+//   padding: 0 20px;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+
+// .username {
+//   margin-right: auto;
+// }
+
+// .username a{
+//   font-size: 16px;
+//   color: #FAFAFA;
+//   text-decoration: none;
+// }
+
+// .btn {
+//   font-size: 10px;
+// }
+
+
+// .btn a {
+//   color: deepskyblue;
+//   border: 1px solid lightblue;
+//   padding: 14px;
+//   text-decoration: none;
+// }
+
+// .side-bar-bottom {
+//   background-color: #2F3E51;
+//   height: calc(100vh - 100px);
+//   padding: 0 20px;
+// }
+
+// .chat {
+//   width: calc(100vw - 300px);
+//   background-color: #ffffff;
+// }
+
+// .chat-top {
+//   height: 100px;
+//   background-color: #ffffff;
+//   padding: 0 40px;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+
+
+// .chat-middle {
+//   height: calc(100vh - 190px);
+//   background-color: #FAFAFA;
+//   padding: 46px 40px 0px; // （上）px（左右）px（下）pxに適応
+// }
+
+// .chat-bottom {
+//   height: 90px;
+//   background-color: #DDDDDD;
+//   padding: 20px 40px;
+// }
+
+// .room {
+//   padding: 20px 0px 40px;
+//   // Y3で無効した関係で親要素にpaddingを設定する必要があるっぽい。
+// }
+
+// .room a{
+//   color: white;
+//   text-decoration: none;
+// }
+// .groupname a{
+//   font-size: 24px;
+//   color: #333;
+//   text-decoration: none;
+//   margin-top: 36px;
+// }
+// .chatendbtn a{
+//   color: darkred;
+//   border: 1px solid darkred;
+//   text-decoration: none;
+//   padding: 20px;
+// }
+
+// .person {
+//   margin-bottom: 40px;
+// }
+
+// .person ul{
+//   margin-bottom: 10px;
+// }
+
+// .person ul{
+//   display: flex;
+// }
+
+// .person-name {
+//   font-size: 16px;
+//   color: #434A54;
+//   margin-right: 10px;
+// }
+
+// .person-time {
+//   font-size: 12px;
+//   color: #999;
+// }
+
+// .chat-middle p{
+//   font-size: 14px;
+//   color: #434A54;
+// }
+
+// .chat-bottom {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+// }
+
+// .textform {
+//   width: 100%;
+// }
