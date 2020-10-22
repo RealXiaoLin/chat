@@ -1,3 +1,84 @@
 // Place all the styles related to the massages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.side-bar {
+  width: 300px;
+  // background-color: #253141;
+}
+
+.side-bar-top {
+  background-color: #253141;
+  height: 100px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.username {
+  margin-right: auto;
+}
+
+.username a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.btn {
+  font-size: 10px;
+}
+
+
+.btn a {
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.side-bar-bottom {
+  background-color: #2F3E51;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+}
+
+.chat {
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+}
+
+.chat-top {
+  height: 100px;
+  background-color: #ffffff;
+  padding: 0 40px;
+}
+
+
+.chat-middle {
+  height: calc(100vh - 190px);
+  background-color: #FAFAFA;
+  padding: 46px 40px 0px; // （上）px（左右）px（下）pxに適応
+}
+
+.chat-bottom {
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
+
+.room {
+  padding: 20px 0px 40px;
+  // Y3で無効した関係で親要素にpaddingを設定する必要があるっぽい。
+}
+
+.room a{
+  color: white;
+  text-decoration: none;
+}
