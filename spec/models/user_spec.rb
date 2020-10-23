@@ -1,11 +1,11 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  describe '#create' do
-    before do
-      @user = FactoryBot.build(:user)
-    end
+  before do
+    @user = FactoryBot.build(:user)
+  end
 
+  describe '#create' do
     it "nameとemail、passwordとpassword_confirmationが存在すれば登録できること" do
       expect(@user).to be_valid
     end
